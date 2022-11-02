@@ -10,7 +10,7 @@ sudo apt-get update > /dev/null 2>&1
 echo "===================================="
 echo "Install chrommmy"
 echo "===================================="
-sudo apt install chromium -y > /dev/null 2>&1
+sudo apt install --assume-yes chromium-browser > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
